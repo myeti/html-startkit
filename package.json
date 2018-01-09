@@ -1,0 +1,31 @@
+{
+  "name": "html-startkit",
+  "version": "1.0.0",
+  "description": "HTML Setup ready-to-dev using Grunt and Assemble",
+  "author": "Aymeric Assier <aymeric.assier@gmail.com>",
+  "homepage": "https://github.com/myeti/html-startkit",
+  "licence": "MIT",
+  "main": "gruntfile.js",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-assemble": "^0.6.3",
+    "handlebars-helper-prettify": "^0.2.1",
+    "time-grunt": "^1.4.0"
+  },
+  "dependencies": {
+    "cornflex": "^1.0.0"
+  },
+  "scripts": {
+    "start": "grunt live",
+    "build": "grunt build",
+    "build:css": "grunt build-css",
+    "build:js": "grunt build-js",
+    "build:html": "grunt build-html"
+  }
+}

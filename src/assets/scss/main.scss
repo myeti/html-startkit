@@ -1,0 +1,12 @@
+/**
+ * Centralize all needed SCSS files to compile into `dist.css`
+ */
+
+@import 'vendors';
+@import 'variables';
+@import 'fonts';
+
+@import 'common/layout';
+
+@import 'partials/header';
+@import 'partials/footer';

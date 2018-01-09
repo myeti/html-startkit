@@ -1,0 +1,42 @@
+/**
+ * Define common variables to be used is all SASS files 
+ */
+
+
+// breakpoints
+
+$breakpoint-sm: map-get($cornflex-breakpoints, -sm); // 768px
+$breakpoint-md: map-get($cornflex-breakpoints, -md); // 992px
+$breakpoint-lg: map-get($cornflex-breakpoints, -lg); // 1180px
+
+
+// fonts
+
+$font-light: Roboto, sans-serif;
+$font-regular: Roboto, sans-serif;
+$font-bold: Roboto, sans-serif;
+
+$font-size: 16px;
+
+$font-color: #333;
+$font-color-white: #fff;
+
+@mixin font-light() {
+  font-family: $font-light;
+  font-weight: 300;
+}
+
+@mixin font-regular() {
+  font-family: $font-regular;
+  font-weight: 400;
+}
+
+@mixin font-bold() {
+  font-family: $font-bold;
+  font-weight: 700;
+}
+
+
+// colors
+
+$bg-color: #fff;

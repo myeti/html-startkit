@@ -1,0 +1,29 @@
+{{#prettify}}
+<html>
+	<head>
+		<title>{{site.title}}</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		{{#if production}}
+		<link href="/assets/css/main.min.css" rel="stylesheet" />
+		{{else}}
+		<link href="/assets/css/main.css" rel="stylesheet" />	
+		{{/if}}
+	</head>
+	<body>
+
+		{{> header}}
+
+		{{> body}}
+
+		{{> footer}}
+
+		{{#if production}}
+		<script src="/assets/js/main.min.js"></script>
+		{{else}}
+		<script src="/assets/js/main.js"></script>
+		{{/if}}
+
+	</body>
+</html>
+{{/prettify}}

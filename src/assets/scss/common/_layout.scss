@@ -1,0 +1,19 @@
+/**
+ * Define styles for the grid/layout
+ */
+
+* {
+	box-sizing: border-box;
+	@include font-regular();
+}
+
+html {
+	font-size: $font-size;
+	color: $font-color;
+	background: $bg-color;
+}
+
+main {
+	padding: 200px 0;
+	text-align: center;
+}
