@@ -5,9 +5,9 @@
 
 // breakpoints
 
-$breakpoint-sm: map-get($cornflex-breakpoints, -sm); // 768px
-$breakpoint-md: map-get($cornflex-breakpoints, -md); // 992px
-$breakpoint-lg: map-get($cornflex-breakpoints, -lg); // 1180px
+$breakpoint-sm: map-get($cornflex-breakpoints, sm); // 768px
+$breakpoint-md: map-get($cornflex-breakpoints, md); // 992px
+$breakpoint-lg: map-get($cornflex-breakpoints, lg); // 1180px
 
 
 // fonts
